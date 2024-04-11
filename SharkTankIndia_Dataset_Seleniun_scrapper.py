@@ -73,7 +73,7 @@ for table in tables:
                 pass
             print(cell_data)
             
-# Close the browser window
+# Close the browser windowM
 driver.quit()
 dataset = pd.DataFrame(row_data)
 dataset.to_excel('SharkTankIndia_Dataset_Selenium.xlsx', index= False)
